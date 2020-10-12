@@ -1,0 +1,367 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div>
+        <div class="title">
+            <img src="{% static 'images/FTG.jpg' %}" width="100" height="100" style="text-align: center">
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+{#            <div class="title">#}
+{#            <img src="{% static 'images/FTG.jpg' %}" width="100" height="100" style="text-align: center">#}
+{#        </div>#}
+  <a class="navbar-brand" href="#">Future Tech</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Beauty<span class="sr-only">(current)</span></a>
+
+      </li>
+
+          <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Men
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Decor&Style</a>
+             <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Kitchen</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Bathroom</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Interiors
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Decor&Style</a>
+             <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Kitchen</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Bathroom</a>
+        </div>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">Lifestyle</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">Human of urban company</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Inside urban company</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="#">Urbancompany.com</a>
+      </li>
+    </ul>
+{#    <form class="form-inline my-2 my-lg-0">#}
+{#      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">#}
+{#      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>#}
+{#    </form>#}
+  </div>
+</nav>
+    </div>
+    <div>
+        <h3 style="margin-left: 10%;padding-top: 2%"><b>Latest Posts</b></h3>
+        <hr style="margin-left: 10%;margin-right:10%;border: 2px solid black;border-radius: 2px">
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                 <img src="{% static 'images/ai.jpg' %}" width="150" height="150" style="margin-left: 10%;">
+            <a><h6 style="color:hotpink;margin-left: 10%;padding-top: 1%">Inside urban company</h6></a>
+            <h6 style="margin-left: 10%;">Description</h6>
+            </div>
+             <div class="col">
+                 <img src="{% static 'images/ai.jpg' %}" width="150" height="150" style="margin-left: 10%;">
+            <a><h6 style="color:hotpink;margin-left: 10%;padding-top: 1%">Inside urban company</h6></a>
+            <h6 style="margin-left: 10%;">Description</h6>
+            </div>
+              <div class="col">
+                 <img src="{% static 'images/ai.jpg' %}" width="150" height="150" style="margin-left: 10%;">
+            <a><h6 style="color:hotpink;margin-left: 10%;padding-top: 1%">Inside urban company</h6></a>
+            <h6 style="margin-left: 10%;">Description</h6>
+            </div>
+              <div class="col">
+                 <img src="{% static 'images/ai.jpg' %}" width="150" height="150" style="margin-left: 10%;">
+            <a><h6 style="color:hotpink;margin-left: 10%;padding-top: 1%">Inside urban company</h6></a>
+            <h6 style="margin-left: 10%;">Description</h6>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8">
+                <h3 style="margin-left: 10%;padding-top: 2%"><b>Beauty</b></h3>
+        <hr style="margin-left: 10%;margin-right:10%;border: 2px solid black;border-radius: 2px">
+ <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-sm-7">
+                          <img src="{% static 'images/ai.jpg' %}" width="150" height="150" >
+                        <h3>Best sheet Marks in India</h3>
+                        <p>Sheet masks are like those quick facials you can have with no added effort. Most of these face masks usually live up to their claims. Here we have a look at the…</p>
+                    </div>
+                    <div class="col-sm-5">
+                      <table cellpadding="10px">
+                          <tr>
+                              <td>
+                                  <img src="{% static 'images/ai.jpg' %}" width="50" height="50" style="margin-left: 10%;">
+                              </td>
+                               <td>
+
+BEAUTY, SKINCARE<br>
+The Wonders of Coconut Oil for Face
+                              </td>
+                          </tr>
+                           <tr>
+                              <td>
+                                  <img src="{% static 'images/ai.jpg' %}" width="50" height="50" style="margin-left: 10%;">
+                              </td>
+                               <td>
+
+BEAUTY, SKINCARE<br>
+The Wonders of Coconut Oil for Face
+                              </td>
+                          </tr>
+
+                          <tr>
+                              <td>
+                                  <img src="{% static 'images/ai.jpg' %}" width="50" height="50" style="margin-left: 10%;">
+                              </td>
+                               <td>
+
+BEAUTY, SKINCARE<br>
+The Wonders of Coconut Oil for Face
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  <img src="{% static 'images/ai.jpg' %}" width="50" height="50" style="margin-left: 10%;">
+                              </td>
+                               <td>
+
+BEAUTY, SKINCARE<br>
+The Wonders of Coconut Oil for Face
+                              </td>
+                          </tr>
+                      </table>
+
+                    </div>
+
+                </div>
+<div class="row" style="text-align: center">
+<button type="button" style="alignment: center;padding:5px 60px;background-color:deeppink;color:white;margin-left: 30%">MORE</button>
+</div>
+                    </div>
+            </div>
+             <div class="col-sm-3">
+                 <h3 style="margin-left: 10%;padding-top: 2%"><b>Urban Company APP</b></h3>
+                 <a  style="margin-left: 20%;padding-top: 4%;margin-top: 2%">
+                     <img src="{% static 'images/gplay.png' %}" width="150" height="50" style="margin-left: 20%;padding-top: 4%;margin-top: 2%">
+                 </a>
+                <a  style="margin-left: 20%;padding-top: 4%;margin-top: 12%">
+                     <img src="{% static 'images/app.png' %}" width="150" height="50"  style="margin-left: 20%;padding-top: 4%;margin-top: 12%">
+                 </a>
+                 <h3><b>Follow US</b></h3>
+                  <a  style="margin-left: 20%;padding-top: 4%;margin-top: 12%">
+                     <img src="{% static 'images/sm.jpg' %}" width="150" height="50"  style="margin-left: 20%;padding-top: 4%;margin-top: 12%">
+                 </a>
+                 No images found!<br>
+Try some other hashtag or username
+        </div>
+    </div>
+
+    </div><br><br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-5" style="margin-left: 2%">
+                <img src="{% static 'images/ai.jpg' %}" width="150" height="150" >
+                <h3><b>20 Wedding Saree Ideas To Inspire You!</b></h3>
+<p>That, there is no match to the grace and elegance of an Indian saree, is old news. No wonder generations of women opted for the timeless nine yards on their wedding days…</p>
+            </div>
+            <div class="col-sm-5">
+  <img src="{% static 'images/ai.jpg' %}" width="150" height="150" >
+                <h3><b>20 Wedding Saree Ideas To Inspire You!</b></h3>
+<p>That, there is no match to the grace and elegance of an Indian saree, is old news. No wonder generations of women opted for the timeless nine yards on their wedding days…</p>
+            </div>
+            </div>
+        <div class="row">
+            <div class="col-sm-5" style="margin-left: 2%">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="{% static 'images/ai.jpg' %}" width="50" height="50" >
+                        </td>
+                        <td> <h6>20 Wedding Saree Ideas To Inspire You!</h6></td>
+                    </tr>
+                </table>
+<hr>
+
+            </div>
+            <div class="col-sm-5">
+   <table>
+                    <tr>
+                        <td>
+                            <img src="{% static 'images/ai.jpg' %}" width="50" height="50" >
+                        </td>
+                        <td> <h6>20 Wedding Saree Ideas To Inspire You!</h6></td>
+                    </tr>
+                </table>
+                <hr>
+            </div>
+            </div>
+         <div class="row">
+            <div class="col-sm-5" style="margin-left: 2%">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="{% static 'images/ai.jpg' %}" width="50" height="50" >
+                        </td>
+                        <td> <h6>20 Wedding Saree Ideas To Inspire You!</h6></td>
+                    </tr>
+                </table>
+<hr>
+
+            </div>
+            <div class="col-sm-5">
+   <table>
+                    <tr>
+                        <td>
+                            <img src="{% static 'images/ai.jpg' %}" width="50" height="50" >
+                        </td>
+                        <td> <h6>20 Wedding Saree Ideas To Inspire You!</h6></td>
+                    </tr>
+                </table>
+                <hr>
+            </div>
+            </div>
+         <div class="row">
+            <div class="col-sm-5" style="margin-left: 2%">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="{% static 'images/ai.jpg' %}" width="50" height="50" >
+                        </td>
+                        <td> <h6>20 Wedding Saree Ideas To Inspire You!</h6></td>
+                    </tr>
+                </table>
+<hr>
+
+            </div>
+            <div class="col-sm-5">
+   <table>
+                    <tr>
+                        <td>
+                            <img src="{% static 'images/ai.jpg' %}" width="50" height="50" >
+                        </td>
+                        <td> <h6>20 Wedding Saree Ideas To Inspire You!</h6></td>
+                    </tr>
+                </table>
+                <hr>
+            </div>
+            </div>
+         <div class="row">
+            <div class="col-sm-5" style="margin-left: 2%">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="{% static 'images/ai.jpg' %}" width="50" height="50" >
+                        </td>
+                        <td> <h6>20 Wedding Saree Ideas To Inspire You!</h6></td>
+                    </tr>
+                </table>
+<hr>
+
+            </div>
+            <div class="col-sm-5">
+   <table>
+                    <tr>
+                        <td>
+                            <img src="{% static 'images/ai.jpg' %}" width="50" height="50" >
+                        </td>
+                        <td> <h6>20 Wedding Saree Ideas To Inspire You!</h6></td>
+                    </tr>
+                </table>
+                <hr>
+            </div>
+            </div>
+        <div class="row">
+            <div class="col-sm-4">
+              <button type="button" style="alignment: center;padding:5px 60px;background-color:deeppink;color:white;margin-left: 30%">MORE</button>
+
+            </div>
+            <div class="col-sm-4">
+                <button type="button" style="alignment: center;padding:5px 60px;background-color:deeppink;color:white;margin-left: 30%">MORE</button>
+
+            </div>
+        </div>
+        </div>
+<footer style="background-color: black;color: white;margin-top: 2%;padding-bottom: 2%;padding-left: 5%;padding-right: 5%">
+    <div class="footer-sec-1">
+        <div class="row">
+        <div class="col">
+        <ul>
+            <li><a>Beauty</a></li>
+             <li><a>Interior</a></li>
+             <li><a>Wedding</a></li>
+             <li><a>Homecare</a></li>
+
+
+
+        </ul>
+        </div>
+        <div class="col">
+            <table>
+                <tr>
+                    <th>Download APP</th>
+                </tr>
+                <tr>
+                    <th>
+                        <img src="{% static 'images/gplay.png' %}" width="100" height="50" style="margin-left: 35%">
+                    </th>
+                     <th>
+                        <img src="{% static 'images/gplay.png' %}" width="100" height="50" style="margin-left: 35%">
+                    </th>
+                </tr>
+            </table>
+
+            </div>
+            <div class="col">
+                Want us keep you in the loop<br>
+                <input type="text" size="30" placeholder="name@youremail.com"><br><br>
+                 <button type="button" style="padding:3px 30px;background-color:deeppink;color:white;">SUBSCRIBE</button>
+
+            </div>
+
+</div>
+<hr style="border: 1px solid white">
+        <h6 style="text-align: center">@futuretechglobal</h6>
+
+    </div>
+
+
+</footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    </body>
+</html>
